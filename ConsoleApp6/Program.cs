@@ -55,12 +55,12 @@ namespace ConsoleApp6
 
             }
 
-            int valkenti;
-            for (valkenti = 1; valkenti <= Array1.Length; valkenti++)
+            int Odd;
+            for (Odd = 1; Odd <= Array1.Length; Odd++)
             {
-                if (Array1[valkenti - 1] % 2 - 1 == 0)
+                if (Array1[Odd - 1] % 2 - 1 == 0)
                 {
-                    Console.WriteLine("kenti: " + Array1[valkenti - 1]);
+                    Console.WriteLine("kenti: " + Array1[Odd - 1]);
                 }
 
 
